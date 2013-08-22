@@ -22,8 +22,8 @@ Or, to get the (even more) bleeding edge code, use GIT:
 
 # Configuration
 
-Once you've downloaded the package, copy the <pre>proxyroutes-example.json</pre>
-file to <pre>proxyroutes.json</pre> and open it in your favorite editor. The
+Once you've downloaded the package, copy the <code>proxyroutes-example.json</code>
+file to <code>proxyroutes.json</code> and open it in your favorite editor. The
 example file shows a configuration with three "zones": production, development
 and secure. Each zone is an element in the JSON object in the proxyroutes.json
 file.
@@ -81,7 +81,7 @@ You'll also need a default key and cert called "localhost.key" and
 "localhost.crt". The default key is used if an unknown host is specified, so
 it's up to you to determine how secure this key (and cert) should be. We
 frequently use self-signed certs for the default. (For a quick and easy way
-to generate a self signed cert, see <pre>gssc</pre> script at
+to generate a self signed cert, see <code>gssc</code> script at
 <a href="https://gist.github.com/OhMeadhbh/6201808">https://gist.github.com/OhMeadhbh/6201808</a>.)
 
 # Deployment
@@ -101,6 +101,6 @@ with the command:
 
 <pre>    make install-deb</pre>
 
-This will copy the kaeng package to <pre>/opt/kaeng</pre> and copy a startup
-script into <pre>/etc/init.d/kaeng</pre>. Beware, however, as the startup
-script assumes node is installed in <pre>/opt/node</pre>.
+This will copy the kaeng package to <code>/opt/kaeng</code> and copy a startup
+script into <code>/etc/init.d/kaeng</code>. Beware, however, as the startup
+script assumes node is installed in <code>/opt/node</code>.
