@@ -25,7 +25,7 @@
       "url": "https://github.com/OhMeadhbh/kaeng"
     }
   ],
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./kaeng.js",
   "keywords": [ "proxy" ]
 }
