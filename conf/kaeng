@@ -16,7 +16,7 @@ PATH=$NODEPATH:/sbin:/usr/sbin:/bin:/usr/bin
 
 case "$1" in
   start)
-	(cd /opt/kaeng; /usr/bin/nohup /usr/local/bin/node kaeng.js --config file://proxyroutes.json&)
+	(cd /opt/kaeng; /usr/bin/nohup $NODEPATH/node kaeng.js --config file://proxyroutes.json&)
 	;;
   stop)
 	;;
