@@ -21,7 +21,7 @@
     "port": 443,
     "ciphers": "AES:!LOW:!MEDIUM:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!3DES",
     "router": {
-      "local.example.com": "127.0.0.1:29000"
+      "local.example.com": "127.0.0.1:29000",
       "local.example.net": "127.0.0.1:29001"
     }
   }
